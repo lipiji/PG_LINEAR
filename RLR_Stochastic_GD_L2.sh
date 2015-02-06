@@ -5,9 +5,9 @@
 # Regularized logistic regression using Gradient Decent (stochastic)
 # Paper : Stochastic Gradient Descent Training for 
 # 		  L1-regularized Log-linear Models with Cumulative Penalty
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # zhizhihu.com
-# 2013-03-19 : Orz~
+# 2013-03-19
 
 if [ $# -lt 2 ];
 then

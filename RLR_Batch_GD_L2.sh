@@ -3,9 +3,9 @@
 # Regularized logistic regression using Gradient Decent (batch)
 # Paper : Stochastic Gradient Descent Training for 
 # 		  L1-regularized Log-linear Models with Cumulative Penalty
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # zhizhihu.com
-# 2013-03-15 : Orz~
+# 2013-03-15
 
 awk 'BEGIN{
 	OFS = "\t";

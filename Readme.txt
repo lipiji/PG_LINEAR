@@ -1,6 +1,6 @@
 # L_p-Regularized logistic regression using Gradient Decent (batch)
 #
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # 2013-03-01
 
 linux:
