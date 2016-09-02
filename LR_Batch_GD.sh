@@ -124,7 +124,7 @@ END{
 	fp = 0;
 	tn = 0;
 	fn = 0;
-	auc = 0;
+	acc = 0;
 	precision = 0;
 	recall = 0;
 	f1 = 0;
@@ -149,7 +149,7 @@ END{
 	}
 	precision = tp / (tp + fp);
 	recall = tp / (tp + fn);
-	auc = (tp + tn) / (tp +tn +fp +fn);
+	acc = (tp + tn) / (tp +tn +fp +fn);
 	f1 = 2*precision*recall / (precision + recall);
 
 	print "Samples = "n, "Positive = "(tp + fn);
@@ -159,7 +159,7 @@ END{
 	print tp, fp;
 	print fn, tn;
 
-	print "Accuracy = "auc;
+	print "Accuracy = "acc;
 	print "Precision = "precision;
 	print "Recall = "recall;
 	print "F1 = "f1; 
